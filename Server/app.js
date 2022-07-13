@@ -4,12 +4,8 @@ const cors = require('cors');
 
 app.use(cors());
 
-app.post("/users", (request, respose) =>{
-    
-    // console.log(request.body.data)
-    console.log("bulleh shah")
-
-    respose.send("a");
+app.post("/dogo", (request, respose) =>{
+    respose.send("Done");
 } );
 
 
